@@ -62,6 +62,10 @@ equals.addEventListener("click", function() {
 
 var clear = document.getElementById("clear")
 clear.addEventListener("click", function() {
-  document.getElementById("output").reset();
+  document.getElementById("output").innerHTML = ""
+  document.getElementById("right_value").innerHTML = " "
+  document.getElementById("left_value").innerHTML = " "
+  document.getElementById("operator").innerHTML = " "
+
 
 })
